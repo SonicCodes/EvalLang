@@ -48,7 +48,7 @@ field(( )[=|>|<|>=|=>|=<|<=]( )('|")value('|"))(;)
 This is not a programming language, it's not turing complete, and I'm not planning to make it so.
 
 There are things missing, for my use-case this was enough.
-- XOR operator (planning to use ```|```)
+- XOR operator (planning to use ```^```)
 - AND operator (planning to use ```&```)
 - NOT operator (planning to use ```!=```)
 - HAS operator (planning to use ```~```)
