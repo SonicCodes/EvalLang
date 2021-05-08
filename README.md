@@ -53,7 +53,9 @@ There are things missing, for my use-case this was enough.
 - HAS operator (planning to use ```~```)
 
 
-I hope you'll contribute to this repo, I've spent a night on making it.
+
+
+I hope you'll contribute to this repo, I've spent a night on implementing it.
 
 ```
 Do what ever you want with this, but keep in-mind I am not responsible 
