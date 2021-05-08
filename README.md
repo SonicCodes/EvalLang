@@ -18,6 +18,25 @@ field;
 field
 ```
 
+```js
+[
+  { field: 'field', operator: '=', value: 'Others' },
+  { field: 'field', operator: '=', value: 'Others' },
+  { field: 'field', operator: '=', value: 'Others' },
+  { field: 'field', operator: '=', value: 'Others' },
+  { field: 'field', operator: '=', value: 'Others' },
+  { field: 'field', operator: '=', value: '9' },
+  { field: 'field', operator: '>', value: 9 },
+  { field: 'field', operator: '<', value: 9 },
+  { field: 'field', operator: '=<', value: 9 },
+  { field: 'field', operator: '=<', value: 9 },
+  { field: 'field', operator: '>=', value: 9 },
+  { field: 'field', operator: '>=', value: 9 },
+  { field: 'field', operator: '!' },
+  { field: 'field', operator: '!' }
+]
+```
+
 Does it require a javascript engine to run? No, when you parse this you'll get array (per line) of dictionaries with the field ```name, operator & value```.
 
 The current design.
