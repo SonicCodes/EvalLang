@@ -44,6 +44,6 @@ function parse_evaluation(rule) {
   return parsed.map((rule_p) => {
     const rule = rule_p.replace(/;\s*$/, "");
     const is_a_rule = rule.match(is_rule) != null;
-    return is_a_rule ? parse_complex(rule) : { field: rule, operator: "!", value:"null" };
+    return is_a_rule ? parse_complex(rule) : { field: rule, operator: "!" };
   });
 }
