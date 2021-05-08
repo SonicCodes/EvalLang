@@ -1,7 +1,8 @@
 # Eval Lang 
 ## A pretty weird language that evaluates in a human way, made to be forgiving and looks like js.
 
-```field=Others
+```js 
+field=Others
 field='Others'
 field="Others"
 field = Others
@@ -23,6 +24,14 @@ The current design.
 ```
 field(( )[=|>|<|>=|=>|=<|<=]( )('|")value('|"))(;)
 ```
+
+### Note
+This is not a programming language, it's not turing complete, and I'm not planning to make it so.
+
+There are things missing, for my use-case this was enough.
+- XOR operator (planning to use ```js |```)
+- AND operator (planning to use ```js &```)
+- HAS operator (planning to use ```js ~```)
 
 
 I hope you'll contribute to this repo, I've spent a night on making it.
