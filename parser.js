@@ -10,7 +10,7 @@ function parse_evaluation(rule) {
       case "=": {
         operation = {
           operator: operator,
-          value: vars[1].replace(/^'|"|"|'$/gm, ""),
+          value: vars[1].replace(/^'|^"|"$|'$/gm, ""),
         };
         break;
       }
