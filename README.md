@@ -50,6 +50,7 @@ This is not a programming language, it's not turing complete, and I'm not planni
 There are things missing, for my use-case this was enough.
 - XOR operator (planning to use ```|```)
 - AND operator (planning to use ```&```)
+- NOT operator (planning to use ```!=```)
 - HAS operator (planning to use ```~```)
 - A standard evaluator function, that evaluates the evaluation dictionary
 - Port it to Python, Java/Kotlin & Dart
