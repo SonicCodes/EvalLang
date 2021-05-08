@@ -51,11 +51,12 @@ There are things missing, for my use-case this was enough.
 - XOR operator (planning to use ```|```)
 - AND operator (planning to use ```&```)
 - HAS operator (planning to use ```~```)
+- A standard evaluator function, that evaluates the evaluation dictionary
+- Port it to Python, Java/Kotlin & Dart
 
 
 
-
-I hope you'll contribute to this repo, I've spent a night on implementing it.
+I hope you'll contribute to this repo.
 
 ```
 Do what ever you want with this, but keep in-mind I am not responsible 
